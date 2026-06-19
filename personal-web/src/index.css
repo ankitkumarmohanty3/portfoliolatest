@@ -6,9 +6,17 @@
     font-family:'Syne', sans-serif;
 } */
 
+/* Global smooth transitions */
+* {
+  @apply transition-colors duration-300;
+}
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white dark:bg-gray-950;
 }
 
 .font-inter {
