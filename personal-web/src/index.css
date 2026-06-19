@@ -6,6 +6,12 @@
     font-family:'Syne', sans-serif;
 } */
 
+/* Performance optimizations */
+img {
+  @apply will-change-none;
+  contain: layout style paint;
+}
+
 /* Global smooth transitions */
 * {
   @apply transition-colors duration-300;
