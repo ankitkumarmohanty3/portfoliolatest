@@ -27,11 +27,13 @@ import Contact from './Components/Contact';
 import Work from './Components/Work';
 import Skills from './Components/Skills';
 import './index.css';
+import ScrollToTop from './Components/ScrollTop';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>
+      <ScrollToTop />
       <Routes>
        <Route path="/" element={<Layout />}>
          <Route index element={<App />} />
