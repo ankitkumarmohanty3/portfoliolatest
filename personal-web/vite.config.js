@@ -5,9 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),
-tailwindcss(),
-
-  ],
+            tailwindcss(),
+           ],
+  base:process.env.VITE_BASE_PATH || '/portfoliolatest',
   
   dedupe: ['react', 'react-dom'],
 })
