@@ -8,7 +8,7 @@
 
 /* Performance optimizations */
 img {
-  @apply will-change-none;
+  @apply will-change-auto;
   contain: layout style paint;
 }
 

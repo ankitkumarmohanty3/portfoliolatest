@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className='bg-purple-50 pt-20'>
@@ -10,10 +10,10 @@ const Footer = () => {
         </div>
 
         <ul className='flex flex-wrap font-poppins justify-center gap-4 sm:gap-6 text-gray-500 font-[Inter] text-sm cursor-pointer'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact Us</li>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact Us</Link>
         </ul>
 
         <div className='text-center text-sm text-gray-500'>

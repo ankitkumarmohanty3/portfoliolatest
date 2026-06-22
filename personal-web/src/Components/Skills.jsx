@@ -16,7 +16,7 @@ const Skills = () => {
      className="bg-purple-100 py-16 sm:py-20 md:py-28 px-4 sm:px-8 md:px-12 lg:px-20 overflow-hidden">
 
   {/* Heading */}
-  <div className="flex items-center justify-center gap-2 sm:gap-4 mb-12 md:mb-20 flex-wrap">
+  <div className="flex pt-14 items-center justify-center gap-2 sm:gap-4 mb-12 md:mb-20">
 
     <img
       src={star}

@@ -31,7 +31,7 @@ import ScrollToTop from "./Components/ScrollTop";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/portfoliolatest">
       <ScrollToTop />
       <AnimatePresence mode="wait">
         <Routes>

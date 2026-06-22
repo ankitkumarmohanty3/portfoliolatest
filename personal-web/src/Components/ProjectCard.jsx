@@ -23,12 +23,12 @@ const ProjectCard = ({ project }) => {
 
    
      
-    <div className="w-full bg-white rounded-2xl ">
+    <div className="w-full bg-white rounded-2xl  ">
       
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-70 object-cover p-4 rounded-3xl"
+        className="w-full h-64 object-cover p-4 rounded-3xl"
       />
 
       <div className="p-4 flex items-center justify-between">
